@@ -28,7 +28,7 @@ $(document).ready(function() {
     $("#btn4").on("click", function() {
         $("#btn4").hide('slow');
         $("#btn4").show('slow');
-        $('#par4').toggle('1000');
+        $('#par4').slideToggle('1000');
     });
 
     $("#btn5").on("click", function() {
@@ -40,7 +40,7 @@ $(document).ready(function() {
     $("#btn6").on("click", function() {
         $("#btn6").hide('slow');
         $("#btn6").show('slow');
-        $('#par6').toggle('1000');
+        $('#par6').slideToggle('1000');
     });
 
     $("#stream2_btn").on("click", function() {
