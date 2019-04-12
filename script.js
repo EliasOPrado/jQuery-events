@@ -42,6 +42,25 @@ $(document).ready(function() {
         $("#btn6").show('slow');
         $('#par6').slideToggle('1000');
     });
+    
+    /*fade buttom with moused hovering*/
+    /*three initial cards only*/
+    $("#btn1").mouseenter(function(){
+        $('#btn1').fadeTo(1000, 0.5);// initial effect when hovering.
+        $('#btn1').fadeTo(1000, 1);// effect when finishs hovering.
+    });
+    
+     $("#btn2").mouseenter(function(){
+        $('#btn2').fadeTo(1000, 0.5);// initial effect when hovering.
+        $('#btn2').fadeTo(1000, 1);// effect when finishs hovering.
+    });
+    
+     $("#btn3").mouseenter(function(){
+        $('#btn3').fadeTo(1000, 0.5);// initial effect when hovering.
+        $('#btn3').fadeTo(1000, 1);// effect when finishs hovering.
+    });
+    
+    
 
     $("#stream2_btn").on("click", function() {
         $(".stream1").removeClass('highlight_stream');
