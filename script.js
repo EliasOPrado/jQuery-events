@@ -5,34 +5,42 @@ $(document).ready(function() {
     $("#btn1").on("click", function() {
         $("#btn1").hide('slow'); //first funciton that will hide the element/id
         $("#btn1").show('slow'); //second function that will show th element/id
+        $('#par1').toggle('1000');
+        
     });
 
     $("#btn2").on("click", function() {
         $("#btn2").fadeToggle(1000);
         $("#btn2").slideToggle('slow');
         $("#btn2").css('background-color', 'blue');
+        $('#par2').slideUp('1000');
+        $('#par2').slideToggle('1000');
         /*$("#btn2").stop('?');*/
     });
 
     $("#btn3").on("click", function() {
         $("#btn3").slideUp('slow');
         $("#btn3").slideToggle('slow');
+        $('#par3').toggle('1000');
 
     });
 
     $("#btn4").on("click", function() {
         $("#btn4").hide('slow');
         $("#btn4").show('slow');
+        $('#par4').toggle('1000');
     });
 
     $("#btn5").on("click", function() {
         $("#btn5").hide('slow');
         $("#btn5").show('slow');
+        $('#par5').toggle('1000');
     });
 
     $("#btn6").on("click", function() {
         $("#btn6").hide('slow');
         $("#btn6").show('slow');
+        $('#par6').toggle('1000');
     });
 
     $("#stream2_btn").on("click", function() {
