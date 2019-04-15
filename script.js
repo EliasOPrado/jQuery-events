@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
-
+     $('p').click(function() {
+         $(this).children('a').css('background-color','yellow');
+     })
 
     $("#btn1").on("click", function() {
         $("#btn1").hide('slow'); //first funciton that will hide the element/id
